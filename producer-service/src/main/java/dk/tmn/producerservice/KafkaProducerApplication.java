@@ -1,13 +1,11 @@
-package dk.tmn.kafkademo;
+package dk.tmn.producerservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KafkaDemoApplication {
-
+public class KafkaProducerApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(KafkaDemoApplication.class, args);
+		SpringApplication.run(KafkaProducerApplication.class, args);
 	}
-
 }
